@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Phase | Empty Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background-effects">
+            <div class="glow glow-1"></div>
+            <div class="glow glow-2"></div>
+        </div>
+        
+        <main class="content">
+            <header>
+                <div class="logo">
+                    <span class="logo-dot"></span>
+                    <span>Learning</span>
+                </div>
+            </header>
+
+            <section class="hero">
+                <h1 class="fade-in">A Canvas for <span class="gradient-text">Your Ideas</span></h1>
+                <p class="fade-in delay-1">Ready to build something extraordinary. This is the foundation for your next big project.</p>
+                <div class="cta-group fade-in delay-2">
+                    <button class="btn btn-primary" id="get-started">Get Started</button>
+                    <button class="btn btn-secondary" id="learn-more">Documentation</button>
+                </div>
+            </section>
+
+            <footer>
+                <p class="fade-in delay-3">&copy; 2026 Learning Project. All rights reserved.</p>
+            </footer>
+        </main>
+    </div>
+    <script>
+        document.getElementById('get-started').addEventListener('click', () => {
+            console.log('Get started clicked');
+        });
+    </script>
+</body>
+</html>
